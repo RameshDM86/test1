@@ -77,7 +77,7 @@ terraform {
       key    = "Ramesh.tfstate"
       region = "us-east-1"
     }
-
+#what is the change
 }
 
 resource "aws_key_pair" "my_keypair" {
