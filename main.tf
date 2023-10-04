@@ -39,7 +39,7 @@ resource "aws_security_group" "allow_http_https_ssh_traffic" {
 
   ingress {
     description      = "HTTP inbound"
-    from_port        = 8
+    from_port        = 80
     to_port          = 80
     protocol         = "tcp"
     cidr_blocks = ["219.74.247.174/32"]
